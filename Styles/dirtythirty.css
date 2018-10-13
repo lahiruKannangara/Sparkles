@@ -1,0 +1,89 @@
+/*Introduction*/	
+.intro {	
+	font-family:Quicksand;
+	font-size:25px;
+	color: gray;
+	padding-left: 50px;
+}
+
+
+
+/*Left Column*/	
+.leftcolumn {   
+    float: left;
+    width: 50%;
+	background-color: white;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+	position: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+div.mainimage{
+	max-width: 1200px;
+	position: relative;
+	margin: 10px;
+	float: left;
+}
+
+
+/*Items include in package*/
+.items {
+	font-family:Quicksand;
+	font-size:18px;
+	color: gray;
+	padding-left: 40px;
+	text-align: center;
+}
+
+
+
+
+
+
+/*Feedback*/
+input[type=text], [type=date], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	
+}
+
+input[type=Submit] {
+    background-color:#ffe6f3;
+    color: grey;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=Submit]:hover {
+    background-color: #ff99ce;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+	width: 300px;
+	font-family: Quicksand;
+	color:grey;
+}
+
